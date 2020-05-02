@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./Header.js";
 import Footer from "./Footer.js";
 import PhotoPage from "./PhotoPage";
+import { Button } from 'reactstrap';
 
 function App() {
   const [data, setData] = useState([]);
@@ -34,7 +34,7 @@ function App() {
       </p> */}
       <Header />
       <PhotoPage title={data.title} hdurl={data.hdurl} />
-      <Footer />
+      <Footer  />
     </div>
   );
 }

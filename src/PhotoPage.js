@@ -1,23 +1,15 @@
 import React from "react";
-
-const PhotoPage = props => {
-    return (
-      <div className="photo-header">
-          <h2>{props.title}</h2>
-        <div className="photo-image-wrapper">
-          <img
-            alt="galaxies"
-            className="photo-image"
-            src={props.hdurl}
-          />
-        </div>
-       
-      </div>  
-      
-    );
-  };
+import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
+import './PhotoPage.css'
+const PhotoPage = (props) => {
+  return (
+    <Card>
+      <CardImg className = 'apod-img' src={props.hdurl} />
+      <CardBody>
+        <CardTitle>{props.title}</CardTitle>
+      </CardBody>
+    </Card>
+  );
+};
 
 export default PhotoPage;
-
-
-  

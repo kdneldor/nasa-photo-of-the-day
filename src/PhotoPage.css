@@ -1,0 +1,12 @@
+.apod-img.card-img{
+    width: 20%;
+    height: 20%;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-left: 15%; 
+}
