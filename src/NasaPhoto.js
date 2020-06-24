@@ -1,6 +1,6 @@
 import React from "react";
-import { Card, CardImg, CardBody, CardTitle } from "reactstrap";
-
+import { Card, CardImg, CardBody, CardTitle } from "reactstrap"
+import './NasaPhoto.css'
 const NasaPhoto = (props) => {
     return (
         <Card>
