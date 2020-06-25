@@ -28,7 +28,7 @@ function App() {
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
       </p> */}
       <NasaHeader />
-      <NasaPhoto title={data.title} hdurl={data.hdurl}/>
+      <NasaPhoto title={data.title} hdurl={data.hdurl} explanation={data.explanation} date={data.date} copyright={data.copyright}/>
       <NasaFooter button={"Hello"}/>
     </div>
   );

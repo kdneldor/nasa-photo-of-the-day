@@ -8,7 +8,6 @@ const NasaFooter = () => {
     font-size: 1.5em;
     text-align: center;
     color: #FC3D21;
-    text-shadow: #FFFFFF;
   `;
   const Wrapper = styled.section`
     padding: 4em;
