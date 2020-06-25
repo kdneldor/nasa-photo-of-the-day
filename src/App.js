@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import "./App.css";
+import 'fontsource-roboto';
 import NasaHeader from "./NasaHeader";
 import NasaPhoto from "./NasaPhoto";
 import NasaFooter from "./NasaFooter";
@@ -28,7 +29,7 @@ function App() {
       </p> */}
       <NasaHeader />
       <NasaPhoto title={data.title} hdurl={data.hdurl}/>
-      <NasaFooter />
+      <NasaFooter button={"Hello"}/>
     </div>
   );
 }
